@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>بي بي سي السودان</title>
+        <link rel="icon" href="Images/bbc news.png" type="image/x-icon">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="navbar">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="Images/bbc news.png" alt=""></a>
+                </div>
+                <div class="navbar-menu">
+                    <ul>
+                        <li><a class="main-item" href="index.html">الرئيسية</a></li> 
+                        <li><a class="main-item" href="#" onmouseover="show();" onclick="show();" onmouseout="show();"  >الاقسام</a>
+                            <ul onmouseout="show();"  class="sub-menu" id="sub-menu" style="display: none;">
+                                <li><a href="#">علوم وتكنولوجيا</a></li> 
+                                <li><a href="#">اقتصاد</a></li> 
+                                <li><a href="#">رياضة</a></li> 
+                            </ul>
+                        </li>   
+                        <li id="nav-li"><a class="main-item" href="about.html">من نحن</a></li>
+                        <li><a class="main-item" href="contact.html">تواصل معنا</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="body-content">
+            <section>
+                <h2><p>قصة أشهر قلعة اسكتلندية دافع عنها المقاتل الأسطوري  "ويليام والاس"</p></h2>
+            </section>
+            <hr/>
+            <article class="main-article">   
+                <div class="main-post post">
+                    <img src="Images/posts/_100788996_183d51b9-f9ef-478f-b968-219f54ad467f.jpg" alt=""/>
+                    <p>
+                        قلعة ستيرلينغ ليست فقط واحدة من أكبر قلاع اسكتلندا وأكثرها شهرة، بل هي إحدى أكثر القلاع أهمية ورمزية في تاريخها.
+                        تعاقب الإنجليز والاسكتلنديون على السيطرة على قلعة ستيرلينغ لعدة مرات عبر التاريخ، إذ حوصرت ثماني مرات في تاريخها. ومع نهاية حرب الاستقلال الاسكتلندية الأولى عام 1328، استطاع قادة اسكتلندا استردادها، إذ أمر ملك اسكتلندا في ذلك الوقت، روبرت ذا بروس، بتدمير دفاعات القلعة حتى لا يتمكن الإنجليز من إعادة احتلالها.
+                        لكن دور قلعة ستيرلينغ في مثل هذه الأحداث التاريخية لم يتوقف. فبعد ذلك بسنوات قليلة، أصبحت المقر الباذخ لأسرة ستيوارت الملكية، بمن فيهم الملكة ماري، ملكة اسكتلندا بعد ذلك، والملك جيمز.
+                        والآن، أصبحت هذه القلعة إحدى أشهر أماكن الجذب السياحي في إدنبرة، فقد زارها عام 2015 نصف مليون زائر، وتظهر صورة أسوارها على ورقة العشرين جنيها استرلينيا في اسكتلندا.
+                        رمز قديم
+                        ورغم شهرة هذه القلعة في التاريخ الاسكتلندي، إلا أن تاريخها يعود إلى ما قبل ظهور البلاد ككيان سياسي. وربما شيدت أسوارها الأولى قبل ثلاثة آلاف عام. 
+                    </p>
+                </div>
+            </article>
+            <div>
+                <h3>
+                    إضافة تعليق
+                </h3>
+                <textarea id="ds" cols="3" style="width:50%">
+
+                </textarea>
+                <br />
+            <div>
+                <button onclick="addCommment()">
+                    اضف
+                </button>
+            </div>
+            </div>
+            <hr>
+        </div> 
+
+
+        <aside class="main-sidbar" >
+            <div>
+                <h4>اخترنا لكم</h4> 
+                <ul>   
+                    <li><a href="news_1.html">قصة أشهر قلعة اسكتلندية دافع عنها المقاتل الأسطوري "ويليام والس"</a></li> 
+                    <li><a href="news_2.html">انفجارات قوية تهز وسط العاصمة السعودية</a></li> 
+                </ul>
+            </div>
+        </aside>
+
+        <p class="clear"></p>
+        <footer class="main-footer">
+            <p>حقوق النشر&COPY;  مجفوظه 2018 </p>
+        </footer>  
+    </body>
+    <script>
+       function  addCommment(){
+            alert("FD");
+        }
+    </script>
+</html>
